@@ -7,3 +7,4 @@ sqlparse==0.3.0
 static3==0.7.0
 gunicorn==19.8.1
 psycopg2==2.7.4
+django-extensions==2.2.5

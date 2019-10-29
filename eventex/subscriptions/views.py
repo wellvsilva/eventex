@@ -29,7 +29,7 @@ def create(request):
                form.cleaned_data)
 
     Subscription.objects.create(**form.cleaned_data)
-    
+
     #Success feedback
     messages.success(request, 'Inscrição realizada com sucesso!')
 
